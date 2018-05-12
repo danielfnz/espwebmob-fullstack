@@ -9,7 +9,7 @@ package lab_08;
  *
  * @author Alunoinf_2
  */
-public class Cliente {
+public class Cliente extends Pessoa{
     private int codigo;
     
     private void imprimeDados(){

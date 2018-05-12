@@ -9,7 +9,7 @@ package lab_08;
  *
  * @author Alunoinf_2
  */
-public class Gerente {
+public class Gerente extends Funcionario {
     private String area;
     
     private void calculaImposto(){

@@ -9,7 +9,7 @@ package lab_08;
  *
  * @author Alunoinf_2
  */
-public class Pessoa {
+public abstract class Pessoa {
     private String nome;
     private Data nascimento;
 }
