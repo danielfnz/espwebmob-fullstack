@@ -10,13 +10,34 @@ package lab_08;
  * @author Alunoinf_2
  */
 public class Funcionario extends Pessoa {
+
+    public Funcionario(double salario, String nome, Data nascimento) {
+        super(nome, nascimento);
+        this.salario = salario;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+    
+    
     private double salario;
     
-    private float calculaImposto(){
-        return (float) 000.000;
+    private double calculaImposto(){
+        return getSalario() - (getSalario() * 0.03);
     }
-    
-    private void imprimeDados(){
-        
+
+    @Override
+    public void imprimeDados() {
+       System.out.println("-------------------------------------------------");
+        System.out.println("Nome:" + getNome());
+        System.out.println("Tipo de cadastro: Funcionario");
+        System.out.println("Nascimento:" + getNascimento().getData());
+        System.out.println("Salario:" + this.calculaImposto());
+        System.out.println("-------------------------------------------------");
     }
-}
+  }
