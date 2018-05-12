@@ -11,11 +11,9 @@ package lab_07;
  */
 public class Adminstrador extends Funcionario {
     
-
     public Adminstrador(String nome, String sobrenome, double salarioFixo) {
         super(nome, sobrenome, salarioFixo);
     }
-
 
     public double calculaRenda(){
         return getSalarioFixo();

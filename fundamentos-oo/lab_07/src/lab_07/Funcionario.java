@@ -17,16 +17,20 @@ public abstract class Funcionario {
     private String sobrenome;
     private double salarioFixo;
     
-     private List<Funcionario> pessoas;
+    private List<Funcionario> pessoas;
     
-    public String getNome() {
-        return nome;
-    }
-
     public Funcionario(String nome, String sobrenome, double salarioFixo) {
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.salarioFixo = salarioFixo;
+    }
+    
+    public String getNome() {
+        return nome;
+    }
+        
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getSobrenome() {
@@ -37,10 +41,6 @@ public abstract class Funcionario {
         this.sobrenome = sobrenome;
     }
            
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     public double getSalarioFixo() {
         return salarioFixo;
     }
@@ -52,6 +52,5 @@ public abstract class Funcionario {
     public abstract double calculaRenda();
     
     public abstract void mostraDados();
-    
-    
+        
 }

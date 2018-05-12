@@ -20,7 +20,6 @@ public class Comissionado extends Funcionario{
         this.percentualComissao = percentualComissao;
     }
 
-
     public double getTotalVendas() {
         return totalVendas;
     }
@@ -45,7 +44,7 @@ public class Comissionado extends Funcionario{
     @Override
     public void mostraDados() {
         System.out.println("-------------------------------------------------");
-           System.out.println("Nome:" + getNome() + " "+ getSobrenome());
+        System.out.println("Nome:" + getNome() + " "+ getSobrenome());
         System.out.println("Cargo:" + this.getClass().getSimpleName());
         System.out.println("Salário:" + getSalarioFixo() + (this.totalVendas * this.percentualComissao));
         System.out.println("-------------------------------------------------");

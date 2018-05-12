@@ -43,7 +43,7 @@ public class Horista extends Funcionario {
     @Override
     public void mostraDados() {
         System.out.println("-------------------------------------------------");
-           System.out.println("Nome:" + getNome() + " "+ getSobrenome());
+        System.out.println("Nome:" + getNome() + " "+ getSobrenome());
         System.out.println("Cargo:" + this.getClass().getSimpleName());
         System.out.println("Salário:" + this.quantidadeHoras * this.valorHora);
         System.out.println("-------------------------------------------------");

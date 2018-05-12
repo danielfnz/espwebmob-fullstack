@@ -13,6 +13,10 @@ public class Gerente extends Funcionario{
     
     private double bonificacao;
 
+    public Gerente(String nome, String sobrenome, double salarioFixo) {
+        super(nome, sobrenome, salarioFixo);
+    }
+        
     public double getBonificacao() {
         return bonificacao;
     }
@@ -20,11 +24,7 @@ public class Gerente extends Funcionario{
     public void setBonificacao(double bonificacao) {
         this.bonificacao = bonificacao;
     }
-    
-    public Gerente(String nome, String sobrenome, double salarioFixo) {
-        super(nome, sobrenome, salarioFixo);
-    }
-    
+        
      public double calculaRenda(){
         return getSalarioFixo() + bonificacao;
     }
@@ -32,7 +32,7 @@ public class Gerente extends Funcionario{
     @Override
     public void mostraDados() {
         System.out.println("-------------------------------------------------");
-          System.out.println("Nome:" + getNome() + " "+ getSobrenome());
+        System.out.println("Nome:" + getNome() + " "+ getSobrenome());
         System.out.println("Cargo:" + this.getClass().getSimpleName());
         System.out.println("Salário:" + getSalarioFixo() + bonificacao);
         System.out.println("-------------------------------------------------");
