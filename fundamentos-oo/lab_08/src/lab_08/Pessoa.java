@@ -10,6 +10,7 @@ package lab_08;
  * @author Alunoinf_2
  */
 public abstract class Pessoa {
+
     private String nome;
     private Data nascimento;
 
@@ -33,6 +34,6 @@ public abstract class Pessoa {
         this.nome = nome;
         this.nascimento = nascimento;
     }
-    
+
     public abstract void imprimeDados();
 }

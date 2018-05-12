@@ -12,8 +12,7 @@ package lab_08;
 public class Cliente extends Pessoa{
            
     private int codigo;
-    
-    
+        
     public Cliente(int codigo, String nome, Data nascimento) {
         super(nome, nascimento);
         this.codigo = codigo;

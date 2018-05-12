@@ -15,13 +15,12 @@ import java.util.List;
  */
 public class CadastroPessoas {
     private int qtdAtual;
-    private List<Pessoa> pessoasList = new ArrayList<Pessoa>();
+    private List<Pessoa> pessoasList;
 
     public CadastroPessoas() {
+         pessoasList = new ArrayList<Pessoa>();
     }
-    
-    
-    
+          
     public void cadastraPessoa(Pessoa pess){
         this.pessoasList .add(pess);
         this.qtdAtual++;

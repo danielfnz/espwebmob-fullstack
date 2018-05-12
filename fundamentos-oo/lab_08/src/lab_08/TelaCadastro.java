@@ -15,18 +15,17 @@ public class TelaCadastro {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
         Pessoa cliente = new Cliente(24, "Daniel cliente", new Data(05, 03, 1993));
         Pessoa funcionario = new Funcionario(200.00, "Daniel Funcionario", new Data(05, 03, 1993));
         Pessoa gerente = new Gerente("Daniel gerente", 200.00, "Financeiro", new Data(05, 03, 1993));
-    
-    
+
         CadastroPessoas cadastro = new CadastroPessoas();
         cadastro.cadastraPessoa(cliente);
-        cadastro.cadastraPessoa(gerente);
         cadastro.cadastraPessoa(funcionario);
-        
+        cadastro.cadastraPessoa(gerente);
+
         cadastro.imprimeCadastro();
     }
-  
 
 }
