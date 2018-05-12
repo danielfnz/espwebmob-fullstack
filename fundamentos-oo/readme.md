@@ -15,7 +15,7 @@
 
 [lab_07](lab_07)
 
-[lab_08](lab_078)
+[lab_08](lab_08)
 
 
 ## Listas
