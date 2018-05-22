@@ -10,15 +10,15 @@ package problemas_01;
  * @author Danie
  */
 public class Problema_02 {
-    
-     public static void main(String[] args) {
+
+    public static void main(String[] args) {
         double gastoJaneiro = 15000;
         double gastoFevereiro = 23000;
         double gastoMarco = 17000;
-        double gastosTrimestre =  gastoJaneiro + gastoFevereiro+ gastoMarco;
-    
+        double gastosTrimestre = gastoJaneiro + gastoFevereiro + gastoMarco;
+
         System.out.println("Os gastos do trimestre são de :" + gastosTrimestre);
-        System.out.println("A media de gastos do trimestre é de :" + gastosTrimestre/3);
-     }
-     
-  }
+        System.out.println("A media de gastos do trimestre é de :" + gastosTrimestre / 3);
+    }
+
+}

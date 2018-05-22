@@ -15,7 +15,7 @@ public class Problemas_01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-         maiorMenor(20, 100, 5);
+        maiorMenor(20, 100, 5);
         umA20();
         quadrados();
         impares();
@@ -23,7 +23,8 @@ public class Problemas_01 {
         fatorial();
         bhaskara(1, 12, -13);
     }
-      private static void maiorMenor(int valor1, int valor2, int valor3) {
+
+    private static void maiorMenor(int valor1, int valor2, int valor3) {
         int maiorValor = valor1;
         int menorValor = valor1;
 
@@ -105,6 +106,6 @@ public class Problemas_01 {
 
         System.out.println("X1 = " + x1);
         System.out.println("X2 = " + x2);
-}
-    
+    }
+
 }
