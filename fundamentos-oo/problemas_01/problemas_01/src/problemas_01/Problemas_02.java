@@ -9,7 +9,7 @@ package problemas_01;
  *
  * @author Danie
  */
-public class Problema_02 {
+public class Problemas_02 {
 
     public static void main(String[] args) {
         double gastoJaneiro = 15000;
