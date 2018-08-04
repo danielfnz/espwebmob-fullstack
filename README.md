@@ -1,4 +1,4 @@
-# Especialização em Desenvolvimento Web - Full Stack (UFG)
+## Especialização em Desenvolvimento Web - Full Stack (UFG)
 
 Projetos e materiais utilizados durante a especialização web e mobile - fullstack
 
